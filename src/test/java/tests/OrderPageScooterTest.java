@@ -1,9 +1,9 @@
-package Tests;
+package tests;
 
-import PageObject.BaseUITest;
-import PageObject.MainPage;
-import PageObject.Order;
-import PageObject.OrderDetailsFormPage;
+import page.object.BaseUITest;
+import page.object.MainPage;
+import model.Order;
+import page.object.OrderDetailsFormPage;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -30,8 +30,6 @@ public class OrderPageScooterTest extends BaseUITest {
                 .open()
                 .clickOrderButton()
                 .fillOrderDetailsForm(order);
-
-
 
     }
 }

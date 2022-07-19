@@ -1,4 +1,4 @@
-package PageObject;
+package page.object;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;

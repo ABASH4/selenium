@@ -1,4 +1,4 @@
-package PageObject;
+package model;
 
 public class Order {
 

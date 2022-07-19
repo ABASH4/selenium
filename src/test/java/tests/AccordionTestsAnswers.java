@@ -1,7 +1,7 @@
-package Tests;
+package tests;
 
-import PageObject.BaseUITest;
-import PageObject.MainPage;
+import page.object.BaseUITest;
+import page.object.MainPage;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

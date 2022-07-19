@@ -1,9 +1,9 @@
-package PageObject;
+package page.object;
 
+import model.Order;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import PageObject.BaseUITest;
 
 public class OrderDetailsFormPage extends BaseUITest {
     private final WebDriver driver;
